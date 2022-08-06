@@ -1,0 +1,11 @@
+:root {
+  --color-primary: #072ac8;
+  --color-primary-hover: #a2d6f9;
+  --color-primary-tapped: #d1edff;
+  --color-accent: #43d2ff;
+  --color-neutral-dark: #292e47;
+  --color-neutral-medium: #6b708d;
+  --color-neutral-light: #f4f6fc;
+  --color-neutral-light-blue: #ecf7ff;
+  --color-secondary: #ffc600;
+}
