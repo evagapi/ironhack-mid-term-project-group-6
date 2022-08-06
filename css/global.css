@@ -13,6 +13,8 @@ html {
 
 html {
   font-family: "Roboto", sans-serif;
+  background-color: var(--color-neutral-light);
+  color: var(--color-neutral-dark);
 }
 
 h1 {
