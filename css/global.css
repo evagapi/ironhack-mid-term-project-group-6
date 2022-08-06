@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 /* * { Box-sizing: Border-box } FTW - https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
 html {
   box-sizing: border-box;
@@ -6,4 +8,59 @@ html {
 *:before,
 *:after {
   box-sizing: inherit;
+}
+/* ENDOF border-box hack */
+
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.intro-text-medium {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.intro-text-regular {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.headline-text-regular {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.headline-text-medium {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.caption-1-text-regular {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.caption-2-text-regular {
+  font-size: 13px;
+  font-weight: 400;
 }
