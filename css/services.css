@@ -15,23 +15,14 @@
   gap: 2rem;
 }
 
-.icon-wrapper {
-  display: flex;
-}
-
-.icon {
-  display: block;
-  position: relative;
-  left: -3.75rem;
-}
-
 .circle {
   width: 80px;
   height: 80px;
-  left: 580px;
-  top: 157px;
   background-color: var(--color-neutral-light-blue);
-  border-radius: 49.6px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .service {
