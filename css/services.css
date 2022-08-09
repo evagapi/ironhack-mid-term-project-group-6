@@ -1,0 +1,39 @@
+.our-services {
+  padding: 2rem;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.services-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.icon-wrapper {
+  display: flex;
+}
+
+.icon {
+  display: block;
+  position: relative;
+  left: -3.75rem;
+}
+
+.circle {
+  width: 80px;
+  height: 80px;
+  left: 580px;
+  top: 157px;
+  background-color: var(--color-neutral-light-blue);
+  border-radius: 49.6px;
+}
+
+.service {
+  max-width: 340px;
+  flex: 1 1 0;
+  padding: 2rem;
+  background-color: #fff;
+  box-shadow: 0px 38.7755px 77.551px rgba(0, 0, 0, 0.1);
+}
