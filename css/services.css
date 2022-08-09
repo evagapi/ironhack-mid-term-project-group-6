@@ -4,6 +4,10 @@
   margin: auto;
 }
 
+.our-services-heading {
+  margin-bottom: 4rem;
+}
+
 .services-wrapper {
   display: flex;
   flex-direction: row;
