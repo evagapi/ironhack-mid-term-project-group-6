@@ -1,10 +1,29 @@
 .testimonials{
     background-color:var(--color-neutral-dark);
     margin: 200px auto 200px auto;
-    width: 1320px;
-    height: 622px;
+    max-width: 1320px;
+    max-height: 622px;
     position: relative;
+ 
 }
+
+.background-image{
+    color:var(--color-neutral-light);
+    background-image:url(../assets/testimonial-section/orbit.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+/*.orbit-image{
+    color:var(--color-neutral-light);
+    background-image:url(../assets/testimonial-section/orbit.png) ;
+    position: absolute;
+    width: 1088px;
+    height: 1088px;
+    top:-233px;left: 116px;
+    /*border: 0.78125px dashed darkblue;*/
+
+
 .testimonials-heading {
     color:var(--color-neutral-light);
     font-style: bold;
@@ -62,12 +81,4 @@
     font-size: 13px;
     position: absolute;
     top: 481px; right:668px; bottom:126px; left:635px;
-}
-.orbit-image{
-    color:var(--color-neutral-light);
-    position: absolute;
-    width: 1088px;
-    height: 1088px;
-    top:-233px;left: 116px;
-    /*border: 0.78125px dashed darkblue;*/
 }
