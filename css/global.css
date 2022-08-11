@@ -69,56 +69,35 @@ h4 {
 }
 
 .button {
-  background-color: #072ac8;
+  background-color: var(--color-primary);
   border: none;
   color: white;
   margin-top: 30px;
-  padding: 15px 32px;
+  padding: 15px 37px;
   text-align: center;
   text-decoration: none;
-  font-weight: 600;
   display: inline-block;
-  font-size: 16px;
-}
+  }
 
 .button:hover{
-  background-color: #43d2ff;
-  border: none;
-  color: #292e47;
-  margin-top: 30px;
-  padding: 15px 32px;
-  font-weight: 600;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-}
+  background-color: var(--color-primary-hover);
+  color: var(--color-neutral-dark);
+ }
 
 
 .buttonClean {
   background-color: transparent;
   border: none;
-  color: #292e47;
+  color: var(--color-neutral-dark);
   margin-top: 30px;
-  padding: 15px 32px;
+  padding: 15px 37px;
   text-align: center;
-  font-weight: 600;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-}
+  }
 
 .buttonClean:hover {
-  background-color: transparent;
-  border: none;
-  color: #072ac8;
-  margin-top: 30px;
-  padding: 15px 32px;
-  text-align: center;
-  font-weight: 600;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+  color: var(--color-primary);
 }
 
 
