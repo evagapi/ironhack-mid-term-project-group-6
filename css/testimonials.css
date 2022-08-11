@@ -1,21 +1,20 @@
 .testimonials{
-    background-color:#292e47 ;
+    background-color:var(--color-neutral-dark);
     margin: 200px auto 200px auto;
     width: 1320px;
     height: 622px;
     position: relative;
-
 }
-.testimonials-heading{
-    color:#f4f6fc;
+.testimonials-heading {
+    color:var(--color-neutral-light);
     font-style: bold;
     display: flex;
     justify-content: center;
     padding:120px 349px 455px 350px ;
-    font-size: 40px;
+    /*font-size: 40px;*/
 }
 .testimonials-paragraph{
-    color:#ffc600;
+    color:var(--color-secondary);
     display: flex;
     justify-content: center;
     text-align: center;
@@ -53,22 +52,22 @@
     top: 452px;right: 695px;bottom: 120px;left: 575px;
 }
 .kristin{
-    color: #A2D6F9;
+    color: var(--color-primary-hover);
     font-size: 17px;
     position: absolute;
     top: 459px; right:574px; bottom:146px; left:635px;
 }
 .booking{
-    color:#F4F6FC ;
+    color:var(--color-neutral-light);
     font-size: 13px;
     position: absolute;
     top: 481px; right:668px; bottom:126px; left:635px;
 }
 .orbit-image{
-    color:#F4F6FC;
+    color:var(--color-neutral-light);
     position: absolute;
     width: 1088px;
     height: 1088px;
-    top: -233px;right:116px;bottom:233px;left: 116px;
+    top:-233px;left: 116px;
     /*border: 0.78125px dashed darkblue;*/
 }
