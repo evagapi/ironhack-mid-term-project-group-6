@@ -68,36 +68,11 @@ h4 {
   font-weight: 400;
 }
 
-.button {
-  background-color: var(--color-primary);
-  border: none;
-  color: white;
-  margin-top: 30px;
-  padding: 15px 37px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  }
-
-.button:hover{
-  background-color: var(--color-primary-hover);
-  color: var(--color-neutral-dark);
- }
-
-
-.buttonClean {
-  background-color: transparent;
-  border: none;
-  color: var(--color-neutral-dark);
-  margin-top: 30px;
-  padding: 15px 37px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  }
-
-.buttonClean:hover {
-  color: var(--color-primary);
+.font-hight-extra {
+  line-height: 1.5em;
 }
 
+.two-col {
+  width: 50%;
+}
 

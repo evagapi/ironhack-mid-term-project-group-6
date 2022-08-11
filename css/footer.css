@@ -1,0 +1,36 @@
+.footer {
+    display: flex;
+  
+    align-items: center;
+    position: relative;
+    margin: auto
+    width:1440px;
+    }
+
+.logo-footer{
+    width: 100px;
+}
+
+.logo {
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.footer-2 li {
+    text-decoration:none;   
+    display:inline-block;
+    padding-left: 80px;
+}
+
+
+.footer-2 a {
+    text-decoration: none;
+    color: var(--color-neutral-dark) ;
+}
+
+.footer-line-1 {
+   margin-bottom: 45px;
+   
+}
+
+
