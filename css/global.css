@@ -77,13 +77,12 @@ h4 {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  }
+}
 
-.button:hover{
+.button:hover {
   background-color: var(--color-primary-hover);
   color: var(--color-neutral-dark);
- }
-
+}
 
 .buttonClean {
   background-color: transparent;
@@ -94,10 +93,8 @@ h4 {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  }
+}
 
 .buttonClean:hover {
   color: var(--color-primary);
 }
-
-
