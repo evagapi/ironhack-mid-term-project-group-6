@@ -1,63 +1,61 @@
 .two-col {
-    width: 50%;
+  width: 50%;
 }
 
 .hero {
-    margin: 10% 12%;
-    display: flex;
-    align-items: center;
-    column-gap: 5em;
+  margin: 10% 12%;
+  display: flex;
+  align-items: center;
+  column-gap: 5em;
 }
 
 #visa {
-    height: 600px;
-    background-image: url("../assets/hero-section/hero-image.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: contain;
-    }
+  height: 600px;
+  background-image: url("../assets/hero-section/hero-image.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
 
 #hero-img-one {
-    height: 20em;
-    margin-left:-5em
-   }
+  height: 20em;
+  margin-left: -5em;
+}
 
 #hero-img-two {
-    height: 17em;
-    position: absolute;
-    bottom: 0px;
-    right: 12%;
+  height: 17em;
+  position: absolute;
+  bottom: 0px;
+  right: 12%;
 }
 
 .button {
-    background-color: var(--color-primary);
-    border: none;
-    color: white;
-    margin-top: 30px;
-    padding: 15px 37px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    }
-  
-  .button:hover{
-    background-color: var(--color-primary-hover);
-    color: var(--color-neutral-dark);
-   }
-  
-  
-  .button-clean {
-    background-color: transparent;
-    border: none;
-    color: var(--color-neutral-dark);
-    margin-top: 30px;
-    padding: 15px 37px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    }
-  
-  .button-clean:hover {
-    color: var(--color-primary);
-  }
+  background-color: var(--color-primary);
+  border: none;
+  color: white;
+  margin-top: 30px;
+  padding: 15px 37px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
 
+.button:hover {
+  background-color: var(--color-primary-hover);
+  color: var(--color-neutral-dark);
+}
+
+.button-clean {
+  background-color: transparent;
+  border: none;
+  color: var(--color-neutral-dark);
+  margin-top: 30px;
+  padding: 15px 37px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.button-clean:hover {
+  color: var(--color-primary);
+}
