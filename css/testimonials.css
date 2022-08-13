@@ -1,0 +1,89 @@
+.testimonials {
+  background-color: var(--color-neutral-dark);
+  margin: 200px auto 200px auto;
+  max-width: 1320px;
+  max-height: 622px;
+  position: relative;
+  margin: auto;
+}
+.background-image {
+  color: var(--color-neutral-light);
+  background-image: url(../assets/testimonial-section/orbit.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.testimonials-heading {
+  color: var(--color-neutral-light);
+  font-style: bold;
+  display: flex;
+  justify-content: center;
+  padding: 120px 349px 455px 350px;
+}
+.testimonials-paragraph {
+  color: var(--color-secondary);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  top: 271px;
+  right: 358px;
+  bottom: 275px;
+  left: 366px;
+  width: 596px;
+  height: 76px;
+  font-size: 24px;
+}
+.memojis {
+  width: 150px;
+  height: 150px;
+}
+.memojis .img1 {
+  position: absolute;
+  top: 51px;
+  right: 358px;
+  bottom: 275px;
+  left: 76px;
+}
+.memojis .img2 {
+  position: absolute;
+  top: 51px;
+  right: 91px;
+  bottom: 421px;
+  left: 1079px;
+}
+.memojis .img3 {
+  position: absolute;
+  top: 399px;
+  right: 1167px;
+  bottom: 73px;
+  left: 63px;
+}
+.memojis .img4 {
+  position: absolute;
+  top: 399px;
+  right: 72px;
+  bottom: 73px;
+  left: 1098px;
+}
+.kristin-section {
+  position: absolute;
+  top: 452px;
+  left: 575px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.kristin-container img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.kristin-container p {
+  margin: 5px;
+}
+.kristin {
+  color: var(--color-primary-hover);
+}
+.booking {
+  color: var(--color-neutral-light);
+}
