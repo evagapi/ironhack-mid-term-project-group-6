@@ -59,3 +59,8 @@
     color: var(--color-primary);
   }
 
+  .two-col {
+    width: 50%;
+  }
+  
+
