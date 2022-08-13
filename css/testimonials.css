@@ -19,11 +19,11 @@
   justify-content: center;
   padding: 120px 349px 455px 350px;
 }
-.testimonials-paragraph {
+.paragraphs {
   color: var(--color-secondary);
   display: flex;
   justify-content: center;
-  text-align: center;
+  flex-wrap: wrap;
   position: absolute;
   top: 271px;
   right: 358px;
@@ -31,8 +31,9 @@
   left: 366px;
   width: 596px;
   height: 76px;
-  font-size: 24px;
+  line-height: 0px;
 }
+
 .memojis {
   width: 150px;
   height: 150px;
