@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/evagapi/ironhack-mid-term-project-group-6#readme",
   "scripts": {
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "format": "npx prettier --write .",
+    "serve": "npx serve"
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
