@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/f768e323-ceb9-4bd4-93d4-af16c982ae3d/deploy-status)](https://app.netlify.com/sites/ironhack-mid-term-project-group-6/deploys)
 
-<div style="text-align:center">
+<div align="center">
   <p>Made with 💜&nbsp;&nbsp;by</p>
   <a href="https://github.com/evagapi/ironhack-mid-term-project-group-6/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=evagapi/ironhack-mid-term-project-group-6">
