@@ -2,7 +2,7 @@
   background-color: var(--color-neutral-dark);
   position: relative;
   color: var(--color-neutral-light);
-  background-image: url(/assets/testimonial-section/orbit.png);
+  background-image: url("/assets/testimonial-section/orbit.png");
   background-size: cover;
   background-repeat: no-repeat;
   max-width: 1100px;
@@ -60,6 +60,7 @@
 
 .memoji {
   --memoji-offset: 3rem;
+
   position: absolute;
   width: 150px;
   height: 150px;

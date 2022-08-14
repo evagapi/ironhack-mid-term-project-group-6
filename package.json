@@ -3,11 +3,13 @@
   "version": "0.0.1",
   "description": "Mid-term project for Ironhack Frontend Bootcamp",
   "main": "index.html",
-  "dependencies": {},
   "devDependencies": {
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
-    "prettier": "2.7.1"
+    "prettier": "2.7.1",
+    "stylelint": "^14.10.0",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-standard": "^27.0.0"
   },
   "repository": {
     "type": "git",
@@ -20,6 +22,7 @@
   "scripts": {
     "prepare": "husky install",
     "format": "npx prettier --write .",
+    "lint:css": "stylelint \"**/*.css\"",
     "serve": "npx serve"
   },
   "lint-staged": {
