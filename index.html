@@ -10,9 +10,11 @@
     <link rel="stylesheet" href="css/global.css" />
     <link rel="stylesheet" href="css/hero.css" />
     <link rel="stylesheet" href="css/projects.css" />
+    <link rel="stylesheet" href="css/testimonials.css" />
     <link rel="stylesheet" href="css/services.css" />
     <link rel="stylesheet" href="css/brands.css" />
     <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/footer.css" />
   </head>
   <body>
     <header>
@@ -25,18 +27,25 @@
           Circle is a digital design and development studio. We design and
           develop astonishing websites and mobilie apps.
         </p>
-        <a class="button headline-text-medium" href="#">Get in touch</a>
-        <a class="button-clean headline-text-medium" href="#">See our work</a>
+        <div class="hero-cta">
+          <a class="button headline-text-medium" href="#">Get in touch</a>
+          <a class="button-clean headline-text-medium" href="#">See our work</a>
+        </div>
       </div>
       <div id="visa" class="two-col">
         <img
-          id="hero-img-one"
-          src="\assets\hero-section\card-1.png"
-          alt="icono visa"
+          src="/assets/hero-section/hero-image.png"
+          alt="happy guy"
+          class="hero-image"
         />
         <img
-          id="hero-img-two"
-          src="\assets\hero-section\card-2.png"
+          class="hero-image-superscript"
+          src="/assets/hero-section/card-1.png"
+          alt="visa icon"
+        />
+        <img
+          class="hero-image-subscript"
+          src="/assets/hero-section/card-2.png"
           alt="project accepted"
         />
       </div>
@@ -110,7 +119,47 @@
       </div>
     </section>
     <section class="testimonials">
-      <!-- TODO: testimonial of clients (emoji section 🤞 😉 👍 🥳), issue #5 -->
+      <div class="testimonials-content">
+        <h3 class="testimonials-heading">Hear What Our Clients Have to Say</h3>
+        <p class="testimonials-paragraph">
+          <span>"Circle helped us through every stage of our startup.</span>
+          <span>We really enjoyed working with you"</span>
+        </p>
+        <div class="testimonial">
+          <img
+            class="testimonial-image"
+            src="assets/testimonial-section/profile.png"
+            alt="profile image"
+          />
+
+          <div class="testimonial-info">
+            <p class="testimonial-name headline-text-regular">Kristin Watson</p>
+            <p class="testimonial-position caption-2-text-regular">
+              Booking.com
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="assets/testimonial-section/memoji-1.png"
+        alt=""
+        class="memoji memoji-top-left"
+      />
+      <img
+        src="assets/testimonial-section/memoji-2.png"
+        alt=""
+        class="memoji memoji-top-right"
+      />
+      <img
+        src="assets/testimonial-section/memoji-3.png"
+        alt=""
+        class="memoji memoji-bottom-left"
+      />
+      <img
+        src="assets/testimonial-section/memoji-4.png"
+        alt=""
+        class="memoji memoji-bottom-right"
+      />
     </section>
     <section class="our-services">
       <h3 class="our-services-heading">Our services</h3>
@@ -175,8 +224,28 @@
         </div>
       </form>
     </section>
-    <footer>
-      <!-- TODO: footer of the page, issue #8 -->
+    <footer class="footer">
+      <div>
+        <img
+          class="logo-footer"
+          src="assets/logos/circle.svg"
+          alt="circle-logo"
+        />
+        <div class="adress">
+          <p class="headline-text-regular font-hight-extra">
+            2972 Wetheimer Rd. Santa Ana,<br />Illinois 85486
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-2">
+        <div><a href="#">Team</a></div>
+        <div><a href="#">Services</a></div>
+        <div><a href="#">About Us</a></div>
+        <div><a href="#">Press</a></div>
+        <div><a href="#">Projects</a></div>
+        <div><a href="#">Privacy Policy</a></div>
+      </div>
     </footer>
   </body>
 </html>
