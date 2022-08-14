@@ -60,6 +60,7 @@
 
 .memoji {
   --memoji-offset: 3rem;
+
   position: absolute;
   width: 150px;
   height: 150px;
