@@ -13,6 +13,7 @@ html {
 
 /* ENDOF border-box hack */
 
+/* stylelint-disable-next-line no-duplicate-selectors */
 html {
   font-family: Roboto, sans-serif;
   background-color: var(--color-neutral-light);
