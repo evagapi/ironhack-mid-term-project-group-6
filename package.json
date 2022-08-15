@@ -4,6 +4,8 @@
   "description": "Mid-term project for Ironhack Frontend Bootcamp",
   "main": "index.html",
   "devDependencies": {
+    "eslint": "^8.22.0",
+    "eslint-config-prettier": "^8.5.0",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "prettier": "2.7.1",
@@ -23,6 +25,7 @@
     "prepare": "husky install",
     "format": "npx prettier --write .",
     "lint:css": "stylelint \"**/*.css\"",
+    "lint:js": "eslint \"js/**\"",
     "serve": "npx serve"
   },
   "lint-staged": {
