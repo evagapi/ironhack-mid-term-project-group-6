@@ -25,4 +25,4 @@ jobs:
         run: npm run lint:css
 
       - name: Lint JS
-        run: npm run lint:js
+        run: npm run lint:js -- --no-error-on-unmatched-pattern
