@@ -3,11 +3,7 @@
   margin: auto;
 }
 
-html {
-  background-color: #ffffff;
-}
-
-h1 {
+.margin-title {
   margin-bottom: 80px;
 }
 
