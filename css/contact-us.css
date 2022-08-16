@@ -11,7 +11,7 @@ input,
 textarea {
   padding: 20px;
   background-color: var(--color-light-grey);
-  border: 0px;
+  border: 0;
   width: 100%;
   margin-bottom: 40px;
   color: var(--color-neutral-medium);
