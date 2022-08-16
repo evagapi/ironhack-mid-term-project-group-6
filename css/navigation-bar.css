@@ -3,16 +3,14 @@
     justify-content: space-between;
     align-items: center;
     margin: auto;
-    /*margin: 0px auto 0px auto;*/
     max-width:1440px;
     height: 122px;
-    flex-direction: row;
 }
 .navigator-logo{
     display: flex;
     align-items: center;
     margin: 0;
-
+    margin-left:170px ;
 }
 .navigator-bar ul{
     list-style: none; 
@@ -21,18 +19,20 @@
     gap: 127px; 
     
 }
-.circle-grid-div li a{
+.circle-options li a{
     text-decoration: none;
     list-style: none;
     margin: 0;
+    color: var(--color-neutral-medium);
 }
 .navigator-btn{
     display: flex;
-}
-.button-contact{
-    
-    background-color:#072AC8;
+    justify-content: center;
+    align-items: center;
+    background-color:var(--color-primary);
     color:#FFFFFF;
     width: 150px;
     height: 52px;
+    border: none;
+    margin-right:170px ;
 }
