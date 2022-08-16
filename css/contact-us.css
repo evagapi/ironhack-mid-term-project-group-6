@@ -1,0 +1,51 @@
+.contact-us {
+    max-width: 1100px;
+    margin: auto;
+  }
+
+  html {
+    background-color:#ffffff;
+}
+
+h1{
+    margin-bottom: 80px;
+}
+
+input, textarea {
+    padding: 20px; 
+    background-color: var(--color-light-grey);
+    border: 0px;
+    width: 100%;
+    margin-bottom: 40px;
+    color: var(--color-neutral-medium);
+}
+
+label {
+    display: block;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#summit {
+    display: block;
+    padding: 5px;
+    padding: 20px; 
+    background-color: var(--color-primary);
+    color: #ffffff;
+    margin-bottom: 100px;
+}
+
+#summit:hover {
+    background-color: var(--color-primary-hover);
+    color: var(--color-neutral-dark);
+  }
+
+.two-col-form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.two-col-element {
+    width: 48%;
+}
