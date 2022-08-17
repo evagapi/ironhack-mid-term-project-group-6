@@ -1,0 +1,45 @@
+.project-margin {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.proj-main-img {
+  width: 100%;
+  max-height: 60vh;
+  object-fit: cover;
+  position: absolute;
+  text-align: center;
+  z-index: 100;
+}
+
+.shadow-main-img {
+  width: 100%;
+  max-height: 60vh;
+  object-fit: cover;
+  filter: blur(2rem);
+  position: relative;
+  z-index: -1;
+}
+
+.proj-main-img-back {
+  position: relative;
+}
+
+.date-line {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.date {
+  color: var(--color-neutral-medium);
+}
+
+.project-title {
+  margin-bottom: 5px;
+}
+
+.proj-parraf {
+  margin-top: 70px;
+  margin-bottom: 50px;
+}

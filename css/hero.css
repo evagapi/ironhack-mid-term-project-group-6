@@ -1,0 +1,66 @@
+.two-col {
+  width: 50%;
+}
+
+.hero {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+
+#visa {
+  position: relative;
+}
+
+.hero-image {
+  width: 100%;
+}
+
+.hero-image-superscript {
+  width: 60%;
+  position: absolute;
+  top: 0;
+  left: -20%;
+}
+
+.hero-image-subscript {
+  width: 55%;
+  position: absolute;
+  bottom: -10%;
+  right: -10%;
+}
+
+.hero-cta {
+  margin-top: 30px;
+}
+
+.button {
+  background-color: var(--color-primary);
+  border: none;
+  color: white;
+  padding: 15px 37px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.button:hover {
+  background-color: var(--color-primary-hover);
+  color: var(--color-neutral-dark);
+}
+
+.button-clean {
+  background-color: transparent;
+  border: none;
+  color: var(--color-neutral-dark);
+  padding: 15px 37px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.button-clean:hover {
+  color: var(--color-primary);
+}

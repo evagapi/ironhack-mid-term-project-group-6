@@ -1,0 +1,34 @@
+{
+  "name": "ironhack-mid-term-project-group-6",
+  "version": "0.0.1",
+  "description": "Mid-term project for Ironhack Frontend Bootcamp",
+  "main": "index.html",
+  "devDependencies": {
+    "eslint": "^8.22.0",
+    "eslint-config-prettier": "^8.5.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "2.7.1",
+    "stylelint": "^14.10.0",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-standard": "^27.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evagapi/ironhack-mid-term-project-group-6.git"
+  },
+  "bugs": {
+    "url": "https://github.com/evagapi/ironhack-mid-term-project-group-6/issues"
+  },
+  "homepage": "https://github.com/evagapi/ironhack-mid-term-project-group-6#readme",
+  "scripts": {
+    "prepare": "husky install",
+    "format": "npx prettier --write .",
+    "lint:css": "stylelint \"**/*.css\"",
+    "lint:js": "eslint \"js/**\"",
+    "serve": "npx serve"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  }
+}
