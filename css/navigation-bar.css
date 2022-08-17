@@ -1,0 +1,62 @@
+.navigator-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto 2rem;
+  max-width: 1440px;
+  height: 122px;
+}
+
+.navigator-logo {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  margin-left: 170px;
+}
+
+.navigator-bar ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 127px;
+}
+
+.circle-options li a {
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+}
+
+.home-link {
+  color: var(--color-primary);
+}
+
+.home-link:hover {
+  color: var(--color-primary-hover);
+}
+
+.navigator-bar-links {
+  color: var(--color-neutral-medium);
+}
+
+.navigator-bar-links:hover {
+  color: var(--color-primary);
+}
+
+.contact-us-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-primary);
+  color: #fff;
+  width: 150px;
+  height: 52px;
+  border: none;
+  margin-right: 170px;
+  text-decoration: none;
+}
+
+.contact-us-btn:hover {
+  background-color: var(--color-primary-hover);
+  color: var(--color-neutral-dark);
+}

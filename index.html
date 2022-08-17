@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/variables.css" />
     <link rel="stylesheet" href="css/global.css" />
     <link rel="stylesheet" href="css/hero.css" />
+    <link rel="stylesheet" href="css/navigation-bar.css" />
     <link rel="stylesheet" href="css/projects.css" />
     <link rel="stylesheet" href="css/testimonials.css" />
     <link rel="stylesheet" href="css/services.css" />
@@ -17,8 +18,28 @@
     <link rel="stylesheet" href="css/footer.css" />
   </head>
   <body>
-    <header>
-      <!-- TODO: navigation bar (header of the page), issue #2 -->
+    <header class="navigator-bar">
+      <div class="navigator-logo">
+        <img
+          src="assets/logos/circle.svg"
+          alt="Circle-logo"
+          class="circle-logo"
+        />
+      </div>
+      <div class="circle-options headline-text-medium">
+        <ul>
+          <li><a href="index.html" class="home-link">Home</a></li>
+          <li>
+            <a href="project-page.html" class="navigator-bar-links">Projects</a>
+          </li>
+          <li><a href="#" class="navigator-bar-links">Service</a></li>
+        </ul>
+      </div>
+      <div>
+        <a class="contact-us-btn headline-text-medium" href="contact-us.html"
+          >Contact Us</a
+        >
+      </div>
     </header>
     <section class="hero">
       <div id="empower" class="two-col">
