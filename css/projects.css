@@ -97,7 +97,6 @@
   .projects-wrapper {
     flex-wrap: wrap;
     justify-content: center;
-    flex: 0;
   }
 
   .project {
