@@ -10,3 +10,16 @@
   filter: grayscale(100%);
   gap: 2rem;
 }
+
+@media (max-width: 640px) {
+  .brands {
+    max-width: 300px;
+    padding: 2rem 0 3rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .logo-image {
+    margin: 1rem;
+  }
+}
