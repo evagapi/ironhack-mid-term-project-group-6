@@ -85,3 +85,16 @@
   bottom: var(--memoji-offset);
   left: var(--memoji-offset);
 }
+
+@media (max-width: 640px) {
+  .testimonials-content {
+    padding: 180px 50px 250px;
+    gap: 0;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 1000px) {
+  .testimonials-paragraph {
+    font-size: 22px;
+  }
+}
