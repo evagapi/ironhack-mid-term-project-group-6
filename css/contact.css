@@ -56,3 +56,25 @@
   color: #fff;
   background-color: var(--color-primary);
 }
+
+@media (max-width: 640px) {
+  .contact-heading {
+    padding-top: 4rem;
+  }
+
+  .form-element {
+    padding-bottom: 4rem;
+  }
+
+  .email-input-wrapper {
+    flex-wrap: wrap;
+  }
+
+  .email-input {
+    padding-right: 4rem;
+  }
+
+  .submit-button {
+    margin: 1rem;
+  }
+}
