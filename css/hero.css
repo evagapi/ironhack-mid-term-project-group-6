@@ -1,13 +1,18 @@
-.two-col {
-  width: 50%;
-}
-
 .hero {
   max-width: 1100px;
   margin: auto;
   display: flex;
   align-items: center;
   gap: 5rem;
+}
+
+.hero-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.two-col {
+  width: 50%;
 }
 
 #visa {
@@ -63,4 +68,61 @@
 
 .button-clean:hover {
   color: var(--color-primary);
+}
+
+@media (max-width: 640px) {
+  h1 {
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .hero {
+    max-width: 300px;
+  }
+
+  .hero-text {
+    text-align: center;
+  }
+
+  .hero-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .two-col {
+    width: 100%;
+  }
+
+  .hero-cta {
+    text-align: center;
+  }
+
+  .button,
+  .button-clean {
+    font-size: 14px;
+    padding: 10px 32px;
+  }
+
+  #visa {
+    margin-top: 2rem;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 1000px) {
+  .hero {
+    max-width: 700px;
+  }
+
+  #empower {
+    width: 70%;
+  }
+
+  #visa {
+    width: 30%;
+    align-self: center;
+  }
+
+  .hero-cta {
+    text-align: center;
+  }
 }
