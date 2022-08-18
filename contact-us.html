@@ -16,7 +16,13 @@
     </header>
     <section class="contact-us">
       <h1 class="margin-title">Contact Us</h1>
-      <form action="" method="post" autocomplete="on">
+      <form
+        name="contactForm"
+        action="#"
+        onsubmit="return validateFormName()"
+        method="post"
+        autocomplete="on"
+      >
         <label for="name">Full Name*</label>
         <input
           type="text"
@@ -64,5 +70,6 @@
     <footer>
       <!-- TODO: footer of the page, issue #8 -->
     </footer>
+    <script src="js/form.js"></script>
   </body>
 </html>
