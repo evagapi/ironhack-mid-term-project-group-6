@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="css/variables.css" />
     <link rel="stylesheet" href="css/global.css" />
     <link rel="stylesheet" href="css/project-page.css" />
+    <link rel="stylesheet" href="css/projects.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/footer.css" />
   </head>
   <body>
     <header>
@@ -64,14 +67,82 @@
         </p>
       </div>
     </section>
-    <section class="other-projects">
-      <!-- TODO: other projects section (overview of other projects), issue #21 -->
+    <section class="recent-projects">
+      <h3 class="recent-projects-heading">Other Projects</h3>
+      <div id="projects-wrapper" class="projects-wrapper">
+        <div class="project-placeholder">
+          <div class="project-placeholder-light"></div>
+          <div class="project-image"></div>
+          <div class="project-text-wrapper">
+            <p class="intro-text-medium">&nbsp;</p>
+            <p class="headline-text-regular">&nbsp;</p>
+            <a href="#" class="headline-text-regular">&nbsp;</a>
+          </div>
+        </div>
+        <div class="project-placeholder">
+          <div class="project-placeholder-light"></div>
+          <div class="project-image"></div>
+          <div class="project-text-wrapper">
+            <p class="intro-text-medium">&nbsp;</p>
+            <p class="headline-text-regular">&nbsp;</p>
+            <a href="#" class="headline-text-regular">&nbsp;</a>
+          </div>
+        </div>
+        <div class="project-placeholder">
+          <div class="project-placeholder-light"></div>
+          <div class="project-image"></div>
+          <div class="project-text-wrapper">
+            <p class="intro-text-medium">&nbsp;</p>
+            <p class="headline-text-regular">&nbsp;</p>
+            <a href="#" class="headline-text-regular">&nbsp;</a>
+          </div>
+        </div>
+      </div>
     </section>
     <section class="contact">
-      <!-- TODO: contact us section (with email input), issue #7 -->
+      <h3 class="contact-heading">Do you have any questions?</h3>
+      <p class="contact-text intro-text-regular">Let us help you!</p>
+      <form action="" method="get" class="form-element">
+        <div class="email-input-wrapper">
+          <div class="input-and-icon-wrapper">
+            <img
+              src="assets/newsletter/icon/mail.svg"
+              alt=""
+              class="email-iccon"
+            />
+            <input
+              type="email"
+              id="email"
+              required="required"
+              class="headline-text-regular email-input"
+              placeholder="Enter your email"
+            />
+          </div>
+          <input type="submit" value="Subscribe" class="submit-button" />
+        </div>
+      </form>
     </section>
-    <footer>
-      <!-- TODO: footer of the page, issue #8 -->
+    <footer class="footer-section">
+      <div class="logo-and-address-wrapper">
+        <img
+          class="logo-footer"
+          src="assets/logos/circle.svg"
+          alt="circle-logo"
+        />
+        <address class="address">
+          <p class="headline-text-regular font-hight-extra">
+            2972 Wetheimer Rd. Santa Ana,<br />Illinois 85486
+          </p>
+        </address>
+      </div>
+      <div class="footer-links-wrapper">
+        <div><a href="#">Team</a></div>
+        <div><a href="#">Services</a></div>
+        <div><a href="#">About Us</a></div>
+        <div><a href="#">Press</a></div>
+        <div><a href="project-page.html">Projects</a></div>
+        <div><a href="#">Privacy Policy</a></div>
+      </div>
     </footer>
   </body>
 </html>
