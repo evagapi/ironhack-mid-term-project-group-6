@@ -19,6 +19,7 @@
 .error-page a {
   text-decoration: none;
 }
+
 .error-page a:hover {
   color: var(--color-secondary);
 }
