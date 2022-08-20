@@ -94,10 +94,17 @@ function parseProjects(projects) {
 
 //Fetch API data
 async function load() {
-  const projects = await fetchProjects();
-  const parsedProjects = parseProjects(projects);
-  renderProject(parsedProjects.project);
-  renderOtherProjects(parsedProjects.otherProjects);
+  try {
+    const projects = await fetchProjects();
+    const parsedProjects = parseProjects(projects);
+    renderProject(parsedProjects.project);
+    renderOtherProjects(parsedProjects.otherProjects);
+  } catch {
+    const otherProjects = document.getElementById("other-projects-wrapper");
+    otherProjects.parentElement.innerHTML = `
+    <p class="alert intro-text-regular">Failed to fetch recent projects 🥲</p>
+    `;
+  }
 }
 
 load();
