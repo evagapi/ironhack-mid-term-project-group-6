@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="css/brands.css" />
     <link rel="stylesheet" href="css/contact.css" />
     <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/hamburguer.css" />
   </head>
   <body>
     <header class="navigator-bar">
@@ -26,16 +27,26 @@
           class="circle-logo"
         />
       </div>
-      <div class="circle-options headline-text-medium">
-        <ul>
-          <li><a href="index.html" class="home-link">Home</a></li>
+
+      <div id="menu" class="circle-options headline-text-medium">
+        <ul id="nav_list">
+          <li>
+            <a href="index.html" class="home-link">Home</a>
+          </li>
           <li>
             <a href="project-page.html" class="navigator-bar-links">Projects</a>
           </li>
-          <li><a href="#" class="navigator-bar-links">Service</a></li>
+          <li>
+            <a href="#" class="navigator-bar-links">Service</a>
+          </li>
         </ul>
       </div>
-      <div>
+
+      <div id="btn" class="hamb-img">
+        <img src="./assets/hamb.png"/> 
+      </div>
+
+      <div clas="contact-us-btn">
         <a class="contact-us-btn headline-text-medium" href="contact-us.html"
           >Contact Us</a
         >
@@ -266,5 +277,6 @@
       </div>
     </footer>
     <script src="js/home.js"></script>
+    <script src="js/hamburguer.js"></script>
   </body>
 </html>

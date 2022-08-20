@@ -1,0 +1,57 @@
+.hamb-img{
+    display:none;
+}
+
+@media screen and (max-width:640px)  {
+    .navigator-logo{
+        display: none;
+    }
+    .hamb-img {
+        display: flex;
+        justify-content: center;
+    }
+    .hamb-img img{
+        max-width: 100%;
+        max-height: 2rem;
+        margin: 0;
+    }
+    .navigator-bar{
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        max-width: 100%;
+    }
+    .navigator-bar ul{
+        display: none;
+        gap:2rem;
+    }
+    #menu ul {
+        display: none;
+        justify-content: center;
+        flex-direction: column;
+        width: 40%;
+      }
+    #menu ul li a {
+        color: white;
+      }
+    #nav_list li a:hover {
+        color: var(--color-secondary);
+    }
+    #menu ul li{
+        position: relative;
+      }
+    #menu ul.show {
+        display: flex;
+        padding-left:auto;
+        margin:0;
+        z-index: 1;
+      }
+    #btn {
+        display: flex;
+    }
+    #menu {
+        background-color: var(--color-primary);
+        
+    }
+}
+
