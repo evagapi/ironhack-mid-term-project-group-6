@@ -5,7 +5,7 @@
 
 .proj-main-img {
   width: 100%;
-  max-height: 60vh;
+  height: 60vh;
   object-fit: cover;
   position: absolute;
   text-align: center;
@@ -14,7 +14,7 @@
 
 .shadow-main-img {
   width: 100%;
-  max-height: 60vh;
+  height: 60vh;
   object-fit: cover;
   filter: blur(2rem);
   position: relative;
@@ -42,4 +42,63 @@
 .proj-parraf {
   margin-top: 70px;
   margin-bottom: 50px;
+}
+
+.project-title-placeholder {
+  position: relative;
+  max-width: 300px;
+  overflow: hidden;
+  background-color: rgb(211 211 211);
+  width: 100%;
+}
+
+.project-description-placeholder {
+  position: relative;
+  max-width: 400px;
+  overflow: hidden;
+  background-color: rgb(211 211 211);
+  width: 100%;
+}
+
+.proj-main-img-placeholder {
+  position: relative;
+  overflow: hidden;
+  height: 60vh;
+  background-color: rgb(211 211 211);
+  width: 100%;
+}
+
+.proj-parraf-placeholder {
+  position: relative;
+  overflow: hidden;
+  height: 420px;
+  background-color: rgb(211 211 211);
+  width: 100%;
+}
+
+.project-placeholder-light {
+  position: absolute;
+  left: -45%;
+  height: 100%;
+  width: 45%;
+  background-image: linear-gradient(
+    to left,
+    rgb(251 251 251 / 5%),
+    rgb(251 251 251 / 30%),
+    rgb(251 251 251 / 60%),
+    rgb(251 251 251 / 30%),
+    rgb(251 251 251 / 5%)
+  );
+  animation: loading 0.7s infinite;
+  z-index: 1;
+}
+
+@keyframes loading {
+  0% {
+    left: -45%;
+  }
+
+  100% {
+    left: 100%;
+  }
 }
