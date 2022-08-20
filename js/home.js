@@ -16,7 +16,7 @@ function renderProjects(projects) {
           <div class="project-text-wrapper">
             <p class="intro-text-medium">${project.name}</p>
             <p class="headline-text-regular">${project.description}</p>
-            <a href="#" class="headline-text-regular">Learn more</a>
+            <a href="/project-page?id=${project.uuid}" class="headline-text-regular">Learn more</a>
           </div>
         </div>
     `;
