@@ -40,14 +40,19 @@ function renderProject(project) {
   projectInDetail.innerHTML = html;
 }
 
+const MAX_PROJECTS_TO_RENDER = 3;
 //Render other projects
-function renderOtherProjects(projects, id) {
+function renderOtherProjects(projects) {
   let html = "";
   let counter = 0;
-  for (let i = 0; counter < 3 && i < projects.length; i++) {
+  for (
+    let i = 0;
+    counter < MAX_PROJECTS_TO_RENDER && i < projects.length;
+    i++
+  ) {
     const project = projects[i];
-    if (project.uuid !== id) {
-      html += `
+
+    html += `
         <div class="project">
           <img
             src="${project.image}"
@@ -61,8 +66,7 @@ function renderOtherProjects(projects, id) {
           </div>
         </div>
   `;
-      counter += 1;
-    }
+    counter += 1;
   }
 
   const otherProjects = document.getElementById("other-projects-wrapper");
@@ -70,13 +74,30 @@ function renderOtherProjects(projects, id) {
   otherProjects.innerHTML = html;
 }
 
+function parseProjects(projects) {
+  const id = getIdFromURL();
+  return projects.reduce(
+    (acc, project) => {
+      if (project.uuid === id) {
+        acc.project = project;
+        return acc;
+      }
+      acc.otherProjects.push(project);
+      return acc;
+    },
+    {
+      project: null,
+      otherProjects: [],
+    }
+  );
+}
+
 //Fetch API data
 async function load() {
   const projects = await fetchProjects();
-  const id = getIdFromURL();
-  const project = projects.find((project) => project.uuid == id);
-  renderProject(project);
-  renderOtherProjects(projects, id);
+  const parsedProjects = parseProjects(projects);
+  renderProject(parsedProjects.project);
+  renderOtherProjects(parsedProjects.otherProjects);
 }
 
 load();
