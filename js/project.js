@@ -80,9 +80,9 @@ function parseProjects(projects) {
     (acc, project) => {
       if (project.uuid === id) {
         acc.project = project;
-        return acc;
+      } else {
+        acc.otherProjects.push(project);
       }
-      acc.otherProjects.push(project);
       return acc;
     },
     {
