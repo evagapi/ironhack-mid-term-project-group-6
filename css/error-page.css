@@ -10,16 +10,16 @@
   margin-top: 20px;
 }
 
-@media (max-width: 640px) {
-  .error-img {
-    width: 80%;
-  }
-}
-
 .error-page a {
   text-decoration: none;
 }
 
 .error-page a:hover {
   color: var(--color-secondary);
+}
+
+@media (max-width: 640px) {
+  .error-img {
+    width: 80%;
+  }
 }
