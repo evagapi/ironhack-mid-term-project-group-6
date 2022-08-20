@@ -40,16 +40,46 @@ function renderProject(project) {
   projectInDetail.innerHTML = html;
 }
 
+//Render other projects
+function renderOtherProjects(projects, id) {
+  let html = "";
+  let counter = 0;
+  for (let i = 0; counter < 3 && i < projects.length; i++) {
+    const project = projects[i];
+    if (project.uuid !== id) {
+      html += `
+        <div class="project">
+          <img
+            src="${project.image}"
+            alt="colorful geometric shapes"
+            class="project-image"
+          />
+          <div class="project-text-wrapper">
+            <p class="intro-text-medium">${project.name}</p>
+            <p class="headline-text-regular">${project.description}</p>
+            <a href="/project-page?id=${project.uuid}" class="headline-text-regular">Learn more</a>
+          </div>
+        </div>
+  `;
+      counter += 1;
+    }
+  }
+
+  const otherProjects = document.getElementById("other-projects-wrapper");
+
+  otherProjects.innerHTML = html;
+}
+
 //Fetch API data
 async function load() {
   const projects = await fetchProjects();
   const id = getIdFromURL();
   const project = projects.find((project) => project.uuid == id);
   renderProject(project);
+  renderOtherProjects(projects, id);
 }
 
 load();
 
-//Render other projects
 //Catch errors
 //Placeholder while loading
