@@ -100,9 +100,11 @@ async function load() {
     renderProject(parsedProjects.project);
     renderOtherProjects(parsedProjects.otherProjects);
   } catch {
-    const otherProjects = document.getElementById("other-projects-wrapper");
-    otherProjects.parentElement.innerHTML = `
-    <p class="alert intro-text-regular">Failed to fetch recent projects 🥲</p>
+    const projectAndProjectsWrapper = document.getElementById(
+      "project-and-projects-wrapper"
+    );
+    projectAndProjectsWrapper.innerHTML = `
+    <p class="alert intro-text-regular">Failed to fetch project 🥲</p>
     `;
   }
 }
