@@ -1,5 +1,4 @@
-const API_ENDPOINT =
-  "https://raw.githubusercontent.com/ironhack-jc/mid-term-api/main/projects";
+import { fetchProjects } from "./common.js";
 
 function renderProjects(projects) {
   let html = "";
@@ -17,7 +16,7 @@ function renderProjects(projects) {
           <div class="project-text-wrapper">
             <p class="intro-text-medium">${project.name}</p>
             <p class="headline-text-regular">${project.description}</p>
-            <a href="#" class="headline-text-regular">Learn more</a>
+            <a href="/project-page?id=${project.uuid}" class="headline-text-regular">Learn more</a>
           </div>
         </div>
     `;
@@ -27,8 +26,7 @@ function renderProjects(projects) {
 
 async function load() {
   try {
-    const response = await fetch(API_ENDPOINT);
-    const projects = await response.json();
+    const projects = await fetchProjects();
     renderProjects(projects);
   } catch {
     const projectsWrapper = document.getElementById("projects-wrapper");
