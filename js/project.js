@@ -99,7 +99,7 @@ async function load() {
     const parsedProjects = parseProjects(projects);
     renderProject(parsedProjects.project);
     renderOtherProjects(parsedProjects.otherProjects);
-  } catch {
+  } catch (error) {
     const projectAndProjectsWrapper = document.getElementById(
       "project-and-projects-wrapper"
     );
