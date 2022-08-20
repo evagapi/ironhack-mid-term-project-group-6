@@ -6,7 +6,6 @@ function getIdFromURL() {
   return params.get("id");
 }
 
-//Render Project in Project Page
 function renderProject(project) {
   let html = `
   <h1 class="project-title">${project.name}</h1>
@@ -41,7 +40,7 @@ function renderProject(project) {
 }
 
 const MAX_PROJECTS_TO_RENDER = 3;
-//Render other projects
+
 function renderOtherProjects(projects) {
   let html = "";
   let counter = 0;
@@ -92,7 +91,6 @@ function parseProjects(projects) {
   );
 }
 
-//Fetch API data
 async function load() {
   try {
     const projects = await fetchProjects();
@@ -110,6 +108,3 @@ async function load() {
 }
 
 load();
-
-//Catch errors
-//Placeholder while loading
