@@ -33,7 +33,7 @@
   padding-left: 2rem;
   display: flex;
   align-items: center;
-  background-color: #fff;
+  background-color: var(--color-white);
 }
 
 .email-input {
@@ -54,7 +54,7 @@
 .submit-button {
   padding: 1.75rem 3rem;
   border: none;
-  color: #fff;
+  color: var(--color-white);
   background-color: var(--color-primary);
 }
 
