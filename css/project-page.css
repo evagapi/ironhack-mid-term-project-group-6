@@ -9,7 +9,7 @@
   object-fit: cover;
   position: absolute;
   text-align: center;
-  z-index: 100;
+  z-index: var(--index-project-page-image);
 }
 
 .shadow-main-img {
@@ -18,7 +18,7 @@
   object-fit: cover;
   filter: blur(2rem);
   position: relative;
-  z-index: -1;
+  z-index: var(--index-project-page-background);
 }
 
 .proj-main-img-back {
@@ -90,7 +90,7 @@
     rgb(251 251 251 / 5%)
   );
   animation: loading 0.7s infinite;
-  z-index: 1;
+  z-index: var(--index-placeholder-light);
 }
 
 @keyframes loading {

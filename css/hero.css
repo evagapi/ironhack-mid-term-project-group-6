@@ -44,7 +44,7 @@
 .button {
   background-color: var(--color-primary);
   border: none;
-  color: white;
+  color: var(--color-white);
   padding: 15px 37px;
   text-align: center;
   text-decoration: none;
@@ -57,7 +57,6 @@
 }
 
 .button-clean {
-  background-color: transparent;
   border: none;
   color: var(--color-neutral-dark);
   padding: 15px 37px;

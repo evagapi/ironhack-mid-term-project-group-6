@@ -30,7 +30,7 @@ label {
   padding: 5px;
   padding: 20px;
   background-color: var(--color-primary);
-  color: #fff;
+  color: var(--color-white);
   margin-bottom: 100px;
 }
 
