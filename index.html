@@ -17,22 +17,25 @@
     <link rel="stylesheet" href="css/contact.css" />
     <link rel="stylesheet" href="css/footer.css" />
   </head>
+
   <body>
-    <header class="navigator-bar">
+    <header class="navigator-bar sticky">
       <div class="navigator-logo">
-        <img
-          src="assets/logos/circle.svg"
-          alt="Circle-logo"
-          class="circle-logo"
-        />
+        <a href="index.html">
+          <img
+            src="assets/logos/circle.svg"
+            alt="Circle-logo"
+            class="circle-logo"
+          />
+        </a>
       </div>
       <div class="circle-options headline-text-medium">
         <ul>
-          <li><a href="index.html" class="home-link">Home</a></li>
           <li>
-            <a href="project-page.html" class="navigator-bar-links">Projects</a>
+            <a href="index.html" class="home-link navigator-bar-links">Home</a>
           </li>
-          <li><a href="#" class="navigator-bar-links">Service</a></li>
+          <li><a href="#projects" class="navigator-bar-links">Projects</a></li>
+          <li><a href="#services" class="navigator-bar-links">Services</a></li>
         </ul>
       </div>
       <div>
@@ -45,7 +48,7 @@
       <div class="hero-wrapper">
         <div id="empower" class="two-col">
           <h1 class="hero-heading">
-            Empower your business With Stunning Design!
+            Empower Your Business With Stunning Design!
           </h1>
           <p class="intro-text-regular hero-text">
             Circle is a digital design and development studio. We design and
@@ -104,7 +107,7 @@
         class="logo-image"
       />
     </section>
-    <section class="recent-projects">
+    <section id="projects" class="recent-projects">
       <h3 class="recent-projects-heading">Recent Projects</h3>
       <div id="projects-wrapper" class="projects-wrapper">
         <div class="project-placeholder">
@@ -179,7 +182,7 @@
         class="memoji memoji-bottom-right"
       />
     </section>
-    <section class="our-services">
+    <section id="services" class="our-services">
       <h3 class="our-services-heading">Our services</h3>
       <div class="services-wrapper">
         <div class="service">
@@ -266,5 +269,6 @@
       </div>
     </footer>
     <script src="js/home.js" type="module"></script>
+    <script src="js/header.js"></script>
   </body>
 </html>
