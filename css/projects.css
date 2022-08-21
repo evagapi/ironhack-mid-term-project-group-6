@@ -54,7 +54,7 @@
     rgb(251 251 251 / 5%)
   );
   animation: loading 0.7s infinite;
-  z-index: 1;
+  z-index: var(--index-placeholder-light);
 }
 
 @keyframes loading {

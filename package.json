@@ -11,7 +11,8 @@
     "prettier": "2.7.1",
     "stylelint": "^14.10.0",
     "stylelint-config-prettier": "^9.0.3",
-    "stylelint-config-standard": "^27.0.0"
+    "stylelint-config-standard": "^27.0.0",
+    "stylelint-declaration-strict-value": "^1.9.0"
   },
   "repository": {
     "type": "git",

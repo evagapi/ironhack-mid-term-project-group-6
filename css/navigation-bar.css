@@ -5,6 +5,7 @@
   margin: 0 auto 2rem;
   max-width: 1440px;
   height: 122px;
+  z-index: var(--index-navigation-bar);
 }
 
 .navigator-logo {

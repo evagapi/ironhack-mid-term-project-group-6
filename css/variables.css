@@ -1,4 +1,5 @@
 :root {
+  /* color definitions */
   --color-primary: #072ac8;
   --color-primary-hover: #a2d6f9;
   --color-primary-tapped: #d1edff;
@@ -9,4 +10,10 @@
   --color-neutral-light-blue: #ecf7ff;
   --color-secondary: #ffc600;
   --color-light-grey: #e7e9f1;
+
+  /* z-index definitions */
+  --index-navigation-bar: 10;
+  --index-project-page-image: 2;
+  --index-project-page-background: 1;
+  --index-placeholder-light: 1;
 }
