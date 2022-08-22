@@ -95,8 +95,12 @@ async function load() {
   try {
     const projects = await fetchProjects();
     const parsedProjects = parseProjects(projects);
-    renderProject(parsedProjects.project);
-    renderOtherProjects(parsedProjects.otherProjects);
+    if (parsedProjects.project == null) {
+      window.location.replace("/error-page");
+    } else {
+      renderProject(parsedProjects.project);
+      renderOtherProjects(parsedProjects.otherProjects);
+    }
   } catch (error) {
     const projectAndProjectsWrapper = document.getElementById(
       "project-and-projects-wrapper"
