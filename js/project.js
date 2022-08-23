@@ -10,8 +10,8 @@ function renderProject(project) {
   let html = `
   <h1 class="project-title">${project.name}</h1>
       <div class="date-line">
-        <p class="intro-text-medium">${project.description}</p>
-        <p class="intro-text-regular">
+        <p class="intro-text-medium project-description-text">${project.description}</p>
+        <p class="intro-text-regular project-description-completed">
           Completed on <span class="date">${project.completed_on}</span>
         </p>
       </div>
