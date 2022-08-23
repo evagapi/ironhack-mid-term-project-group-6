@@ -3,6 +3,18 @@
   margin: auto;
 }
 
+@media (max-width: 640px) {
+  .contact-us {
+    margin: auto 10px;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 1000px) {
+  .contact-us {
+    margin: auto 20px;
+  }
+}
+
 .margin-title {
   margin-bottom: 80px;
 }
