@@ -3,4 +3,5 @@ const nav = document.getElementById("nav_list");
 
 button.addEventListener('click', () => {
   nav.classList.toggle('show');
+  console.log(nav);
 });

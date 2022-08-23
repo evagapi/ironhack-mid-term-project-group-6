@@ -1,3 +1,4 @@
+
 .hamb-img{
     display:none;
 }
@@ -48,10 +49,14 @@
       }
     #btn {
         display: flex;
+        position: absolute;
+        left: 1rem;
+        
     }
     #menu {
         background-color: var(--color-primary);
+        display: block;
+        margin-top: 12rem;
         
     }
 }
-
