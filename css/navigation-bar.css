@@ -74,8 +74,8 @@
 }
 
 .mobile-menu {
-  font-size: 5rem;
-  margin-top: -0.8rem;
+  font-size: 3rem;
+  margin-top: -0.5rem;
   line-height: 1;
   display: none;
   color: var(--color-primary);
