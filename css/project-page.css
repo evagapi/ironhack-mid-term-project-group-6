@@ -104,13 +104,16 @@
 }
 
 .project-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   margin: 0 2rem;
 }
 
 @media (max-width: 640px) {
+  .project-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .project-title,
   .date-line {
     text-align: center;
@@ -145,5 +148,33 @@
 }
 
 @media (min-width: 640px) and (max-width: 1000px) {
-  /* TODO: tablet */
+  .project-title {
+    margin: 3rem 0 0;
+  }
+
+  .date-line {
+    margin: 1rem 0;
+  }
+
+  .project-description-text,
+  .project-description-completed {
+    max-width: 40vw;
+  }
+
+  .proj-main-img {
+    position: initial;
+  }
+
+  .shadow-main-img {
+    display: none;
+  }
+
+  .proj-parraf {
+    margin: 3rem 3rem 5rem;
+    text-align: justify;
+  }
+
+  .proj-parraf-placeholder {
+    width: initial;
+  }
 }
