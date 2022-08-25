@@ -99,6 +99,7 @@ async function load() {
     if (parsedProjects.project == null) {
       window.location.replace("/error-page");
     } else {
+      document.title = `${parsedProjects.project.name} - Circle`;
       renderProject(parsedProjects.project);
       renderOtherProjects(parsedProjects.otherProjects);
     }
