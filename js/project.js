@@ -8,31 +8,32 @@ function getIdFromURL() {
 
 function renderProject(project) {
   let html = `
-  <h1 class="project-title">${project.name}</h1>
-      <div class="date-line">
-        <p class="intro-text-medium">${project.description}</p>
-        <p class="intro-text-regular">
-          Completed on <span class="date">${project.completed_on}</span>
-        </p>
-      </div>
-      <div class="proj-main-img-back">
-        <img
-          class="proj-main-img"
-          src="${project.image}"
-          alt="imagen proyecto"
-        />
-        <img
-          class="shadow-main-img"
-          src="${project.image}"
-          alt="imagen proyecto"
-        />
-      </div>
-      <div class="proj-parraf intro-text-regular">
-        <p>
-          ${project.content}
-        </p>
-      </div>
-  `;
+  <div class="project-header">    
+    <h1 class="project-title">${project.name}</h1>
+    <div class="date-line">
+      <p class="intro-text-medium project-description-text">${project.description}</p>
+      <p class="intro-text-regular project-description-completed">
+        Completed on <span class="date">${project.completed_on}</span>
+      </p>
+    </div>
+  </div>
+  <div class="proj-main-img-back">
+    <img
+      class="proj-main-img"
+      src="${project.image}"
+      alt="imagen proyecto"
+    />
+    <img
+      class="shadow-main-img"
+      src="${project.image}"
+      alt="imagen proyecto"
+    />
+  </div>
+  <div class="proj-parraf intro-text-regular">
+    <p>
+      ${project.content}
+    </p>
+  </div>`;
 
   const projectInDetail = document.getElementById("project-in-detail");
 
@@ -98,6 +99,7 @@ async function load() {
     if (parsedProjects.project == null) {
       window.location.replace("/error-page");
     } else {
+      document.title = `${parsedProjects.project.name} - Circle`;
       renderProject(parsedProjects.project);
       renderOtherProjects(parsedProjects.otherProjects);
     }
