@@ -16,7 +16,7 @@
 }
 
 .project {
-  max-width: 340px;
+  max-width: 300px;
   flex: 1 1 0;
   background-color: var(--color-white);
   box-shadow: 0 38.7755px 77.551px rgb(0 0 0 / 10%);
