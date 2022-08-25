@@ -25,7 +25,7 @@ label {
   color: var(--color-neutral-medium);
 }
 
-#summit {
+#submit {
   display: block;
   padding: 5px;
   padding: 20px;
@@ -34,7 +34,7 @@ label {
   margin-bottom: 100px;
 }
 
-#summit:hover {
+#submit:hover {
   background-color: var(--color-primary-hover);
   color: var(--color-neutral-dark);
 }
@@ -46,4 +46,24 @@ label {
 
 .two-col-element {
   width: 48%;
+}
+
+@media (max-width: 640px) {
+  .contact-us {
+    margin: auto 10px;
+  }
+
+  .two-col-form {
+    flex-wrap: wrap;
+  }
+
+  .two-col-element {
+    width: 100%;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 1000px) {
+  .contact-us {
+    margin: auto 20px;
+  }
 }
