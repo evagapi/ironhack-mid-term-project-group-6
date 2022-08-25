@@ -9,31 +9,66 @@
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/variables.css" />
     <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/navigation-bar.css" />
     <link rel="stylesheet" href="css/project-page.css" />
     <link rel="stylesheet" href="css/projects.css" />
     <link rel="stylesheet" href="css/contact.css" />
     <link rel="stylesheet" href="css/footer.css" />
   </head>
   <body>
-    <header>
-      <!-- TODO: navigation bar (header of the page), issue #2 -->
+    <header class="sticky">
+      <div class="navigator-bar">
+        <a href="index.html" class="navigator-logo">
+          <img
+            src="assets/logos/circle.svg"
+            alt="Circle-logo"
+            class="circle-logo"
+          />
+        </a>
+        <div class="circle-options headline-text-medium">
+          <ul>
+            <li>
+              <a href="index.html" class="home-link navigator-bar-links"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a href="#projects" class="navigator-bar-links">Projects</a>
+            </li>
+            <li>
+              <a href="#services" class="navigator-bar-links">Services</a>
+            </li>
+          </ul>
+          <a class="contact-us-btn headline-text-medium" href="contact-us.html"
+            >Contact Us</a
+          >
+        </div>
+        <span class="mobile-menu">≡</span>
+      </div>
     </header>
     <div id="project-and-projects-wrapper">
       <section class="project-in-detail project-margin" id="project-in-detail">
-        <h1 class="project-title project-title-placeholder">
-          <span class="project-placeholder-light"></span>
-          &nbsp;
-        </h1>
-        <div class="date-line">
-          <p class="intro-text-medium project-description-placeholder">
+        <div class="project-header">
+          <h1 class="project-title project-title-placeholder">
             <span class="project-placeholder-light"></span>
             &nbsp;
-          </p>
-          <p class="intro-text-regular project-description-placeholder">
-            <span class="project-placeholder-light"></span>
-            &nbsp;
-          </p>
+          </h1>
+          <div class="date-line">
+            <p
+              class="intro-text-medium project-description-text project-description-placeholder"
+            >
+              <span class="project-placeholder-light"></span>
+              &nbsp;
+            </p>
+            <p
+              class="intro-text-regular project-description-completed project-description-placeholder"
+            >
+              <span class="project-placeholder-light"></span>
+              &nbsp;
+            </p>
+          </div>
         </div>
+
         <div class="proj-main-img proj-main-img-placeholder">
           <span class="project-placeholder-light"></span>
           <p>&nbsp;</p>
@@ -122,5 +157,6 @@
       </div>
     </footer>
     <script src="js/project.js" type="module"></script>
+    <script src="js/header.js"></script>
   </body>
 </html>
