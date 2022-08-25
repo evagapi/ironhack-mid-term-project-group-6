@@ -14,6 +14,7 @@
 
   /* z-index definitions */
   --index-navigation-bar: 10;
+  --index-navigation-bar-submenu: 9;
   --index-project-page-image: 2;
   --index-project-page-background: 1;
   --index-placeholder-light: 1;
